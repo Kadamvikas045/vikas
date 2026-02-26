@@ -1,14 +1,15 @@
 import java.util.Scanner;
 
-public class task1 {
+class TemperatureConverter {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("🌡️ Temperature Conversion Program");
-        
+
         System.out.print("Enter temperature value: ");
         double temp = sc.nextDouble();
-        
+
         System.out.print("Enter unit (C for Celsius, F for Fahrenheit, K for Kelvin): ");
         char unit = sc.next().toUpperCase().charAt(0);
 
